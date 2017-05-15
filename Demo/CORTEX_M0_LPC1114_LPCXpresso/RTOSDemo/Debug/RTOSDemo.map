@@ -1,0 +1,1821 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+                              ./Source/main.o (GPIOSetBitValue)
+C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+                              ./Source/cr_startup_lpc11.o (SystemInit)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                              ./Source/FreeRTOS_Source/queue.o (memcpy)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                              ./Source/FreeRTOS_Source/tasks.o (memset)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                              ./Source/cr_startup_lpc11.o (__main)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+                              ./Source/main.o (memcmp)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+                              ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o (__aeabi_uidiv)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+                              C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o) (__gnu_thumb1_case_uqi)
+
+Allocating common symbols
+Common symbol       size              file
+
+xQueueRegistry      0x40              ./Source/FreeRTOS_Source/queue.o
+xHighPriorityNormallyEmptyTask2
+                    0x4               ./Source/Common_Demo_Tasks/IntQueue.o
+xHighPriorityNormallyFullTask1
+                    0x4               ./Source/Common_Demo_Tasks/IntQueue.o
+xHighPriorityNormallyEmptyTask1
+                    0x4               ./Source/Common_Demo_Tasks/IntQueue.o
+xHighPriorityNormallyFullTask2
+                    0x4               ./Source/Common_Demo_Tasks/IntQueue.o
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .text          0x00000000        0x0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .data          0x00000000        0x0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .bss           0x00000000        0x0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .text.vPortInitialiseBlocks
+                0x00000000       0x14 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .text.xPortGetFreeHeapSize
+                0x00000000       0x18 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .text          0x00000000        0x0 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .data          0x00000000        0x0 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .bss           0x00000000        0x0 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .text.vPortEndScheduler
+                0x00000000       0x20 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000      0x838 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000      0x12d ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0xfa ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000      0x168 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0xaf ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0x1f ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000      0x3f3 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0xc0 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x00000000       0x8c ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/list.o
+ .text          0x00000000        0x0 ./Source/FreeRTOS_Source/list.o
+ .data          0x00000000        0x0 ./Source/FreeRTOS_Source/list.o
+ .bss           0x00000000        0x0 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000      0x838 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000      0x12d ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0x28 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0xfa ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000      0x168 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0xaf ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0x1f ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000      0x3f3 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00000000       0xc0 ./Source/FreeRTOS_Source/list.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/queue.o
+ .text          0x00000000        0x0 ./Source/FreeRTOS_Source/queue.o
+ .data          0x00000000        0x0 ./Source/FreeRTOS_Source/queue.o
+ .bss           0x00000000        0x0 ./Source/FreeRTOS_Source/queue.o
+ .text.prvInitialiseMutex
+                0x00000000       0x34 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueCreateMutex
+                0x00000000       0x38 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x58 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x60 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueCreateCountingSemaphore
+                0x00000000       0x48 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueGiveFromISR
+                0x00000000       0xcc ./Source/FreeRTOS_Source/queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0x84 ./Source/FreeRTOS_Source/queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x2c ./Source/FreeRTOS_Source/queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x34 ./Source/FreeRTOS_Source/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x24 ./Source/FreeRTOS_Source/queue.o
+ .text.vQueueDelete
+                0x00000000       0x30 ./Source/FreeRTOS_Source/queue.o
+ .text.uxQueueGetQueueNumber
+                0x00000000       0x14 ./Source/FreeRTOS_Source/queue.o
+ .text.vQueueSetQueueNumber
+                0x00000000       0x18 ./Source/FreeRTOS_Source/queue.o
+ .text.ucQueueGetQueueType
+                0x00000000       0x18 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x30 ./Source/FreeRTOS_Source/queue.o
+ .text.pcQueueGetName
+                0x00000000       0x4c ./Source/FreeRTOS_Source/queue.o
+ .text.vQueueUnregisterQueue
+                0x00000000       0x54 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000      0x838 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000      0x12d ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0x28 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0xfa ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000      0x168 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0xaf ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0x1f ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000      0x3f3 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0xc0 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00000000       0x8c ./Source/FreeRTOS_Source/queue.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/tasks.o
+ .text          0x00000000        0x0 ./Source/FreeRTOS_Source/tasks.o
+ .data          0x00000000        0x0 ./Source/FreeRTOS_Source/tasks.o
+ .bss           0x00000000        0x0 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskDelete
+                0x00000000       0xc8 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskDelay
+                0x00000000       0x4c ./Source/FreeRTOS_Source/tasks.o
+ .text.eTaskGetState
+                0x00000000       0xbc ./Source/FreeRTOS_Source/tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x34 ./Source/FreeRTOS_Source/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x3c ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskPrioritySet
+                0x00000000      0x124 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskSuspend
+                0x00000000       0xb8 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x00000000       0x60 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskResume
+                0x00000000       0x9c ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0xbc ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x1c ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x20 ./Source/FreeRTOS_Source/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x34 ./Source/FreeRTOS_Source/tasks.o
+ .text.uxTaskGetSystemState
+                0x00000000      0x11c ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x5c ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0xb0 ./Source/FreeRTOS_Source/tasks.o
+ .text.uxTaskGetTaskNumber
+                0x00000000       0x28 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskSetTaskNumber
+                0x00000000       0x24 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskGetInfo
+                0x00000000       0xc4 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvListTasksWithinSingleList
+                0x00000000       0xa8 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvTaskCheckFreeStackSpace
+                0x00000000       0x34 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x1c ./Source/FreeRTOS_Source/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x2c ./Source/FreeRTOS_Source/tasks.o
+ .text.ulTaskNotifyTake
+                0x00000000       0x84 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskNotifyWait
+                0x00000000       0xa8 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x118 ./Source/FreeRTOS_Source/tasks.o
+ .rodata.xTaskGenericNotify
+                0x00000000       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x154 ./Source/FreeRTOS_Source/tasks.o
+ .rodata.xTaskGenericNotifyFromISR
+                0x00000000       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x00000000       0xf4 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskNotifyStateClear
+                0x00000000       0x4c ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000      0x838 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000      0x12d ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0x28 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0xfa ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000      0x168 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0xaf ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0x1f ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000      0x3f3 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0xc0 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00000000       0x8c ./Source/FreeRTOS_Source/tasks.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/FreeRTOS_Source/timers.o
+ .text          0x00000000        0x0 ./Source/FreeRTOS_Source/timers.o
+ .data          0x00000000        0x0 ./Source/FreeRTOS_Source/timers.o
+ .bss           0x00000000        0x0 ./Source/FreeRTOS_Source/timers.o
+ .text.xTimerCreate
+                0x00000000       0x40 ./Source/FreeRTOS_Source/timers.o
+ .text.prvInitialiseNewTimer
+                0x00000000       0x54 ./Source/FreeRTOS_Source/timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000       0x20 ./Source/FreeRTOS_Source/timers.o
+ .text.xTimerGetPeriod
+                0x00000000       0x24 ./Source/FreeRTOS_Source/timers.o
+ .text.xTimerGetExpiryTime
+                0x00000000       0x28 ./Source/FreeRTOS_Source/timers.o
+ .text.pcTimerGetName
+                0x00000000       0x24 ./Source/FreeRTOS_Source/timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x34 ./Source/FreeRTOS_Source/timers.o
+ .text.pvTimerGetTimerID
+                0x00000000       0x30 ./Source/FreeRTOS_Source/timers.o
+ .text.vTimerSetTimerID
+                0x00000000       0x30 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000      0x838 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000      0x12d ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x28 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000      0x5b2 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0xfa ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000      0x168 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0xaf ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x10 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x1f ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000      0x3f3 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0xc0 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x8c ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x94 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00000000       0x91 ./Source/FreeRTOS_Source/timers.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text          0x00000000        0x0 ./Source/Common_Demo_Tasks/IntQueue.o
+ .data          0x00000000        0x0 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss           0x00000000        0x0 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxHighPriorityLoops1
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxHighPriorityLoops2
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxLowPriorityLoops1
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxLowPriorityLoops2
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.xWasSuspended
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .rodata        0x00000000       0x4e ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.vStartInterruptQueueTasks
+                0x00000000      0x10c ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prvHigherPriorityNormallyEmptyTask
+                0x00000000      0x16c ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prvLowerPriorityNormallyEmptyTask
+                0x00000000       0xb4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prv1stHigherPriorityNormallyFullTask
+                0x00000000      0x148 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prv2ndHigherPriorityNormallyFullTask
+                0x00000000       0x9c ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prvLowerPriorityNormallyFullTask
+                0x00000000       0xa4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.xAreIntQueueTasksStillRunning
+                0x00000000       0xb4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxLastHighPriorityLoops1.4507
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxLastHighPriorityLoops2.4508
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxLastLowPriorityLoops1.4509
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxLastLowPriorityLoops2.4510
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000      0x838 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000      0x12d ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000      0x5b2 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0xfa ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000      0x168 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0xaf ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0x1f ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000      0x3f3 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0x94 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0xc0 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x00000000       0x8c ./Source/Common_Demo_Tasks/IntQueue.o
+ COMMON         0x00000000       0x10 ./Source/Common_Demo_Tasks/IntQueue.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/blocktim.o
+ .text          0x00000000        0x0 ./Source/Common_Demo_Tasks/blocktim.o
+ .data          0x00000000        0x0 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss           0x00000000        0x0 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xTestQueue
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xSecondary
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xPrimaryCycles
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xSecondaryCycles
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xErrorOccurred
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xRunIndicator
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .rodata        0x00000000       0x23 ./Source/Common_Demo_Tasks/blocktim.o
+ .text.vCreateBlockTimeTasks
+                0x00000000       0x78 ./Source/Common_Demo_Tasks/blocktim.o
+ .text.vPrimaryBlockTimeTestTask
+                0x00000000      0x2dc ./Source/Common_Demo_Tasks/blocktim.o
+ .text.vSecondaryBlockTimeTestTask
+                0x00000000       0xd8 ./Source/Common_Demo_Tasks/blocktim.o
+ .text.prvBasicDelayTests
+                0x00000000       0xb8 ./Source/Common_Demo_Tasks/blocktim.o
+ .text.xAreBlockTimeTestTasksStillRunning
+                0x00000000       0x64 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xLastPrimaryCycleCount.4375
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .bss.xLastSecondaryCycleCount.4376
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_info    0x00000000      0x2f2 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_abbrev  0x00000000       0xfe ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_aranges
+                0x00000000       0x40 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_ranges  0x00000000       0x30 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0xfd ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000      0x838 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000      0x12d ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0x16 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000      0x5b2 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0xfa ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000      0x168 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0xaf ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0x1f ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000      0x3f3 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0xc0 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0x8c ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_macro   0x00000000       0x94 ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_line    0x00000000      0x4ea ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_str     0x00000000     0x796e ./Source/Common_Demo_Tasks/blocktim.o
+ .comment       0x00000000       0x6f ./Source/Common_Demo_Tasks/blocktim.o
+ .debug_frame   0x00000000       0xb0 ./Source/Common_Demo_Tasks/blocktim.o
+ .ARM.attributes
+                0x00000000       0x31 ./Source/Common_Demo_Tasks/blocktim.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/countsem.o
+ .text          0x00000000        0x0 ./Source/Common_Demo_Tasks/countsem.o
+ .data          0x00000000        0x0 ./Source/Common_Demo_Tasks/countsem.o
+ .bss           0x00000000        0x0 ./Source/Common_Demo_Tasks/countsem.o
+ .bss.xErrorDetected
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/countsem.o
+ .bss.xParameters
+                0x00000000       0x18 ./Source/Common_Demo_Tasks/countsem.o
+ .rodata        0x00000000       0x2d ./Source/Common_Demo_Tasks/countsem.o
+ .text.vStartCountingSemaphoreTasks
+                0x00000000       0xb4 ./Source/Common_Demo_Tasks/countsem.o
+ .text.prvDecrementSemaphoreCount
+                0x00000000       0xa4 ./Source/Common_Demo_Tasks/countsem.o
+ .text.prvIncrementSemaphoreCount
+                0x00000000       0x90 ./Source/Common_Demo_Tasks/countsem.o
+ .text.prvCountingSemaphoreTask
+                0x00000000       0x64 ./Source/Common_Demo_Tasks/countsem.o
+ .text.xAreCountingSemaphoreTasksStillRunning
+                0x00000000       0x64 ./Source/Common_Demo_Tasks/countsem.o
+ .bss.uxLastCount0.4343
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/countsem.o
+ .bss.uxLastCount1.4344
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_info    0x00000000      0x264 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_abbrev  0x00000000      0x130 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_aranges
+                0x00000000       0x40 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_ranges  0x00000000       0x30 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0xf4 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000      0x838 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000      0x12d ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x16 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000      0x5b2 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0xfa ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000      0x168 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0xaf ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x1f ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000      0x3f3 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0xc0 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x8c ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x94 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_macro   0x00000000       0x78 ./Source/Common_Demo_Tasks/countsem.o
+ .debug_line    0x00000000      0x47e ./Source/Common_Demo_Tasks/countsem.o
+ .debug_str     0x00000000     0x7f32 ./Source/Common_Demo_Tasks/countsem.o
+ .comment       0x00000000       0x6f ./Source/Common_Demo_Tasks/countsem.o
+ .debug_frame   0x00000000       0xb0 ./Source/Common_Demo_Tasks/countsem.o
+ .ARM.attributes
+                0x00000000       0x31 ./Source/Common_Demo_Tasks/countsem.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/Common_Demo_Tasks/recmutex.o
+ .text          0x00000000        0x0 ./Source/Common_Demo_Tasks/recmutex.o
+ .data          0x00000000        0x0 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss           0x00000000        0x0 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.xMutex    0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.xErrorOccurred
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.xControllingIsSuspended
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.xBlockingIsSuspended
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.uxControllingCycles
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.uxBlockingCycles
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.uxPollingCycles
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.xControllingTaskHandle
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.xBlockingTaskHandle
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .rodata        0x00000000       0x25 ./Source/Common_Demo_Tasks/recmutex.o
+ .text.vStartRecursiveMutexTasks
+                0x00000000       0x94 ./Source/Common_Demo_Tasks/recmutex.o
+ .text.prvRecursiveMutexControllingTask
+                0x00000000       0xc0 ./Source/Common_Demo_Tasks/recmutex.o
+ .text.prvRecursiveMutexBlockingTask
+                0x00000000       0x98 ./Source/Common_Demo_Tasks/recmutex.o
+ .text.prvRecursiveMutexPollingTask
+                0x00000000      0x108 ./Source/Common_Demo_Tasks/recmutex.o
+ .text.xAreRecursiveMutexTasksStillRunning
+                0x00000000       0x94 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.uxLastControllingCycles.4345
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.uxLastBlockingCycles.4346
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .bss.uxLastPollingCycles.4347
+                0x00000000        0x4 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_info    0x00000000      0x29f ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_abbrev  0x00000000      0x10f ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_aranges
+                0x00000000       0x40 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_ranges  0x00000000       0x30 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000      0x101 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000      0x838 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000      0x12d ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x16 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000      0x5b2 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0xfa ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000      0x168 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0xaf ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x10 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x1f ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000      0x3f3 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0xc0 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x8c ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x94 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_macro   0x00000000       0x78 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_line    0x00000000      0x4b9 ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_str     0x00000000     0x806a ./Source/Common_Demo_Tasks/recmutex.o
+ .comment       0x00000000       0x6f ./Source/Common_Demo_Tasks/recmutex.o
+ .debug_frame   0x00000000       0xb0 ./Source/Common_Demo_Tasks/recmutex.o
+ .ARM.attributes
+                0x00000000       0x31 ./Source/Common_Demo_Tasks/recmutex.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/IntQueueTimer.o
+ .text          0x00000000        0x0 ./Source/IntQueueTimer.o
+ .data          0x00000000        0x0 ./Source/IntQueueTimer.o
+ .bss           0x00000000        0x0 ./Source/IntQueueTimer.o
+ .text.NVIC_EnableIRQ
+                0x00000000       0x2c ./Source/IntQueueTimer.o
+ .text.NVIC_SetPriority
+                0x00000000       0xdc ./Source/IntQueueTimer.o
+ .text.vInitialiseTimerForIntQueueTest
+                0x00000000       0x8c ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000      0x838 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0x10 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000      0x12d ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0x16 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000      0x5b2 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0xfa ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000      0x168 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0xaf ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0x10 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0x1f ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000      0x3f3 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0xc0 ./Source/IntQueueTimer.o
+ .debug_macro   0x00000000       0x8c ./Source/IntQueueTimer.o
+ .group         0x00000000        0x8 ./Source/RegTest.o
+ .text          0x00000000        0x0 ./Source/RegTest.o
+ .data          0x00000000        0x0 ./Source/RegTest.o
+ .bss           0x00000000        0x0 ./Source/RegTest.o
+ .text.vRegTest1Task
+                0x00000000       0x7c ./Source/RegTest.o
+ .text.vRegTest2Task
+                0x00000000       0x7c ./Source/RegTest.o
+ .debug_info    0x00000000       0x4c ./Source/RegTest.o
+ .debug_abbrev  0x00000000       0x2f ./Source/RegTest.o
+ .debug_aranges
+                0x00000000       0x28 ./Source/RegTest.o
+ .debug_ranges  0x00000000       0x18 ./Source/RegTest.o
+ .debug_macro   0x00000000       0x11 ./Source/RegTest.o
+ .debug_macro   0x00000000      0x838 ./Source/RegTest.o
+ .debug_line    0x00000000       0x62 ./Source/RegTest.o
+ .debug_str     0x00000000     0x23bd ./Source/RegTest.o
+ .comment       0x00000000       0x6f ./Source/RegTest.o
+ .debug_frame   0x00000000       0x30 ./Source/RegTest.o
+ .ARM.attributes
+                0x00000000       0x31 ./Source/RegTest.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/cr_startup_lpc11.o
+ .text          0x00000000        0x0 ./Source/cr_startup_lpc11.o
+ .data          0x00000000        0x0 ./Source/cr_startup_lpc11.o
+ .bss           0x00000000        0x0 ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00000000       0x2e ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00000000       0x10 ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00000000      0x12d ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00000000      0x5b2 ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00000000      0x237 ./Source/cr_startup_lpc11.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-blinky.o
+ .text          0x00000000        0x0 ./Source/main-blinky.o
+ .data          0x00000000        0x0 ./Source/main-blinky.o
+ .bss           0x00000000        0x0 ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x838 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x10 ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x12d ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x16 ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x5b2 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0xfa ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x168 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0xaf ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x10 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x1f ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x3f3 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0xc0 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x8c ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x94 ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x1c ./Source/main-blinky.o
+ .debug_macro   0x00000000       0x2e ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x237 ./Source/main-blinky.o
+ .debug_macro   0x00000000      0x10e ./Source/main-blinky.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main-full.o
+ .text          0x00000000        0x0 ./Source/main-full.o
+ .data          0x00000000        0x0 ./Source/main-full.o
+ .bss           0x00000000        0x0 ./Source/main-full.o
+ .bss.ulRegTest1LoopCounter
+                0x00000000        0x4 ./Source/main-full.o
+ .bss.ulRegTest2LoopCounter
+                0x00000000        0x4 ./Source/main-full.o
+ .rodata        0x00000000       0x1b ./Source/main-full.o
+ .text.main_full
+                0x00000000       0x9c ./Source/main-full.o
+ .text.prvCheckTimerCallback
+                0x00000000       0xd0 ./Source/main-full.o
+ .bss.ulLastRegTest1Value.4944
+                0x00000000        0x4 ./Source/main-full.o
+ .bss.ulLastRegTest2Value.4945
+                0x00000000        0x4 ./Source/main-full.o
+ .bss.lChangedTimerPeriodAlready.4943
+                0x00000000        0x4 ./Source/main-full.o
+ .debug_info    0x00000000      0x18c ./Source/main-full.o
+ .debug_abbrev  0x00000000       0xb0 ./Source/main-full.o
+ .debug_aranges
+                0x00000000       0x28 ./Source/main-full.o
+ .debug_ranges  0x00000000       0x18 ./Source/main-full.o
+ .debug_macro   0x00000000      0x149 ./Source/main-full.o
+ .debug_macro   0x00000000      0x838 ./Source/main-full.o
+ .debug_macro   0x00000000       0x10 ./Source/main-full.o
+ .debug_macro   0x00000000      0x12d ./Source/main-full.o
+ .debug_macro   0x00000000       0x16 ./Source/main-full.o
+ .debug_macro   0x00000000      0x5b2 ./Source/main-full.o
+ .debug_macro   0x00000000       0xfa ./Source/main-full.o
+ .debug_macro   0x00000000      0x168 ./Source/main-full.o
+ .debug_macro   0x00000000       0xaf ./Source/main-full.o
+ .debug_macro   0x00000000       0x10 ./Source/main-full.o
+ .debug_macro   0x00000000       0x1f ./Source/main-full.o
+ .debug_macro   0x00000000      0x3f3 ./Source/main-full.o
+ .debug_macro   0x00000000       0xc0 ./Source/main-full.o
+ .debug_macro   0x00000000       0x8c ./Source/main-full.o
+ .debug_macro   0x00000000       0x94 ./Source/main-full.o
+ .debug_macro   0x00000000       0x91 ./Source/main-full.o
+ .debug_macro   0x00000000       0x1c ./Source/main-full.o
+ .debug_macro   0x00000000       0x2e ./Source/main-full.o
+ .debug_macro   0x00000000      0x237 ./Source/main-full.o
+ .debug_macro   0x00000000      0x10e ./Source/main-full.o
+ .debug_line    0x00000000      0x4c5 ./Source/main-full.o
+ .debug_str     0x00000000     0x93a7 ./Source/main-full.o
+ .comment       0x00000000       0x6f ./Source/main-full.o
+ .debug_frame   0x00000000       0x50 ./Source/main-full.o
+ .ARM.attributes
+                0x00000000       0x31 ./Source/main-full.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .group         0x00000000        0x8 ./Source/main.o
+ .text          0x00000000        0x0 ./Source/main.o
+ .data          0x00000000        0x0 ./Source/main.o
+ .bss           0x00000000        0x0 ./Source/main.o
+ .text.vApplicationIdleHook
+                0x00000000        0xc ./Source/main.o
+ .debug_macro   0x00000000      0x838 ./Source/main.o
+ .debug_macro   0x00000000       0x10 ./Source/main.o
+ .debug_macro   0x00000000      0x12d ./Source/main.o
+ .debug_macro   0x00000000       0x10 ./Source/main.o
+ .debug_macro   0x00000000      0x5b2 ./Source/main.o
+ .debug_macro   0x00000000       0xfa ./Source/main.o
+ .debug_macro   0x00000000      0x168 ./Source/main.o
+ .debug_macro   0x00000000       0xaf ./Source/main.o
+ .debug_macro   0x00000000       0x10 ./Source/main.o
+ .debug_macro   0x00000000       0x1f ./Source/main.o
+ .debug_macro   0x00000000      0x3f3 ./Source/main.o
+ .debug_macro   0x00000000       0xc0 ./Source/main.o
+ .debug_macro   0x00000000       0x8c ./Source/main.o
+ .debug_macro   0x00000000       0x1c ./Source/main.o
+ .debug_macro   0x00000000       0x2e ./Source/main.o
+ .debug_macro   0x00000000      0x237 ./Source/main.o
+ .debug_macro   0x00000000      0x10e ./Source/main.o
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT0_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT1_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT2_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT3_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT4_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT5_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT6_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.FLEX_INT7_IRQHandler
+                0x00000000       0x70 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GINT0_IRQHandler
+                0x00000000       0x3c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GINT1_IRQHandler
+                0x00000000       0x3c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOInit
+                0x00000000       0x1c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOSetFlexInterrupt
+                0x00000000       0xf4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOFlexIntEnable
+                0x00000000       0x28 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOFlexIntDisable
+                0x00000000       0x28 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOFlexIntStatus
+                0x00000000       0x18 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOFlexIntClear
+                0x00000000       0x14 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOSetGroupedInterrupt
+                0x00000000       0x98 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .text.GPIOGetPinValue
+                0x00000000       0x36 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int2_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int6_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int2_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int7_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int6_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int4_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int2_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.gint1_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int7_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int7_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int0_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int2_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int1_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int1_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int4_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int5_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int6_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.gint1_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int5_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int0_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int0_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int7_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int5_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int3_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int3_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int4_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int5_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int1_rising_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int6_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.gint1_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.gint0_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.gint0_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int3_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int1_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.gint0_level_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int0_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int3_falling_edge_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .bss.flex_int4_counter
+                0x00000000        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000      0x237 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000      0x10e C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00000000       0x52 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .group         0x00000000        0x8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .text          0x00000000        0x0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .data          0x00000000        0x0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .bss           0x00000000        0x0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xa0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .rodata.CSWTCH.9
+                0x00000000       0x3c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000      0x838 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000       0x10 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000      0x12d C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000       0x1c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000       0x2e C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000      0x237 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .debug_macro   0x00000000      0x10e C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .text.__gnu_thumb1_case_sqi
+                0x00000000       0x10 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .text.__gnu_thumb1_case_uqi
+                0x00000000       0x10 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .text.__gnu_thumb1_case_shi
+                0x00000000       0x10 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .text.__gnu_thumb1_case_uhi
+                0x00000000       0x10 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .text.__gnu_thumb1_case_si
+                0x00000000       0x18 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(thumb1_switch_helpers.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc4          0x10000000         0x00001000         xrw
+RamUsb2          0x20004000         0x00000800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+LOAD ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+LOAD ./Source/FreeRTOS_Source/list.o
+LOAD ./Source/FreeRTOS_Source/queue.o
+LOAD ./Source/FreeRTOS_Source/tasks.o
+LOAD ./Source/FreeRTOS_Source/timers.o
+LOAD ./Source/Common_Demo_Tasks/IntQueue.o
+LOAD ./Source/Common_Demo_Tasks/blocktim.o
+LOAD ./Source/Common_Demo_Tasks/countsem.o
+LOAD ./Source/Common_Demo_Tasks/recmutex.o
+LOAD ./Source/IntQueueTimer.o
+LOAD ./Source/RegTest.o
+LOAD ./Source/cr_startup_lpc11.o
+LOAD ./Source/main-blinky.o
+LOAD ./Source/main-full.o
+LOAD ./Source/main.o
+LOAD C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash32 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00008000                __top_MFlash32 = 0x8000
+                0x00008000                __top_Flash = 0x8000
+                0x10000000                __base_RamLoc4 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10001000                __top_RamLoc4 = 0x10001000
+                0x10001000                __top_RAM = 0x10001000
+                0x20004000                __base_RamUsb2 = 0x20004000
+                0x20004000                __base_RAM2 = 0x20004000
+                0x20004800                __top_RamUsb2 = 0x20004800
+                0x20004800                __top_RAM2 = 0x20004800
+
+.text           0x00000000     0x2b18
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./Source/cr_startup_lpc11.o
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x2b18 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000c8        0x4 LONG 0xc SIZEOF (.data)
+                0x000000cc        0x4 LONG 0x2b18 LOADADDR (.data_RAM2)
+                0x000000d0        0x4 LONG 0x20004000 ADDR (.data_RAM2)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000d8                __data_section_table_end = .
+                0x000000d8                __bss_section_table = .
+                0x000000d8        0x4 LONG 0x1000000c ADDR (.bss)
+                0x000000dc        0x4 LONG 0xb3c SIZEOF (.bss)
+                0x000000e0        0x4 LONG 0x20004000 ADDR (.bss_RAM2)
+                0x000000e4        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000e8                __bss_section_table_end = .
+                0x000000e8                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000e8       0x8c ./Source/cr_startup_lpc11.o
+                0x000000e8                NMI_Handler
+                0x000000ea                HardFault_Handler
+                0x00000110                UART_IRQHandler
+                0x00000110                TIMER32_0_IRQHandler
+                0x00000110                WDT_IRQHandler
+                0x00000110                TIMER32_1_IRQHandler
+                0x00000110                IntDefaultHandler
+                0x00000110                PIOINT1_IRQHandler
+                0x00000110                CAN_IRQHandler
+                0x00000110                SSP0_IRQHandler
+                0x00000110                PIOINT3_IRQHandler
+                0x00000110                ADC_IRQHandler
+                0x00000110                SSP1_IRQHandler
+                0x00000110                PIOINT2_IRQHandler
+                0x00000110                BOD_IRQHandler
+                0x00000110                WAKEUP_IRQHandler
+                0x00000110                PIOINT0_IRQHandler
+                0x00000110                I2C_IRQHandler
+                0x00000112                data_init
+                0x00000124                bss_init
+                0x00000134                ResetISR
+ *(.text*)
+ .text.pvPortMalloc
+                0x00000174       0x94 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+                0x00000174                pvPortMalloc
+ .text.vPortFree
+                0x00000208       0x1c ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+                0x00000208                vPortFree
+ .text.pxPortInitialiseStack
+                0x00000224       0x54 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x00000224                pxPortInitialiseStack
+ .text.prvTaskExitError
+                0x00000278       0x18 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .text.SVCall_Handler
+                0x00000290        0xc ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x00000290                SVCall_Handler
+ *fill*         0x0000029c        0x4 ff
+ .text.vPortStartFirstTask
+                0x000002a0       0x38 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .text.xPortStartScheduler
+                0x000002d8       0x44 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x000002d8                xPortStartScheduler
+ .text.vPortYield
+                0x0000031c       0x20 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x0000031c                vPortYield
+ .text.vPortEnterCritical
+                0x0000033c       0x24 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x0000033c                vPortEnterCritical
+ .text.vPortExitCritical
+                0x00000360       0x30 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x00000360                vPortExitCritical
+ .text.ulSetInterruptMaskFromISR
+                0x00000390        0xc ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x00000390                ulSetInterruptMaskFromISR
+ .text.vClearInterruptMaskFromISR
+                0x0000039c        0x8 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x0000039c                vClearInterruptMaskFromISR
+ *fill*         0x000003a4        0xc ff
+ .text.PendSV_Handler
+                0x000003b0       0x48 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x000003b0                PendSV_Handler
+ .text.SysTick_Handler
+                0x000003f8       0x34 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                0x000003f8                SysTick_Handler
+ .text.prvSetupTimerInterrupt
+                0x0000042c       0x34 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .text.vListInitialise
+                0x00000460       0x3c ./Source/FreeRTOS_Source/list.o
+                0x00000460                vListInitialise
+ .text.vListInitialiseItem
+                0x0000049c       0x18 ./Source/FreeRTOS_Source/list.o
+                0x0000049c                vListInitialiseItem
+ .text.vListInsertEnd
+                0x000004b4       0x44 ./Source/FreeRTOS_Source/list.o
+                0x000004b4                vListInsertEnd
+ .text.vListInsert
+                0x000004f8       0x6c ./Source/FreeRTOS_Source/list.o
+                0x000004f8                vListInsert
+ .text.uxListRemove
+                0x00000564       0x50 ./Source/FreeRTOS_Source/list.o
+                0x00000564                uxListRemove
+ .text.xQueueGenericReset
+                0x000005b4       0xa8 ./Source/FreeRTOS_Source/queue.o
+                0x000005b4                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000065c       0x64 ./Source/FreeRTOS_Source/queue.o
+                0x0000065c                xQueueGenericCreate
+ .text.prvInitialiseNewQueue
+                0x000006c0       0x50 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueGenericSend
+                0x00000710      0x188 ./Source/FreeRTOS_Source/queue.o
+                0x00000710                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x00000898       0xe4 ./Source/FreeRTOS_Source/queue.o
+                0x00000898                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x0000097c      0x1c8 ./Source/FreeRTOS_Source/queue.o
+                0x0000097c                xQueueGenericReceive
+ .text.xQueueReceiveFromISR
+                0x00000b44       0xc8 ./Source/FreeRTOS_Source/queue.o
+                0x00000b44                xQueueReceiveFromISR
+ .text.prvCopyDataToQueue
+                0x00000c0c       0xd8 ./Source/FreeRTOS_Source/queue.o
+ .text.prvCopyDataFromQueue
+                0x00000ce4       0x4c ./Source/FreeRTOS_Source/queue.o
+ .text.prvUnlockQueue
+                0x00000d30       0xc0 ./Source/FreeRTOS_Source/queue.o
+ .text.prvIsQueueEmpty
+                0x00000df0       0x2c ./Source/FreeRTOS_Source/queue.o
+ .text.prvIsQueueFull
+                0x00000e1c       0x30 ./Source/FreeRTOS_Source/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000e4c       0x34 ./Source/FreeRTOS_Source/queue.o
+                0x00000e4c                xQueueIsQueueFullFromISR
+ .text.vQueueAddToRegistry
+                0x00000e80       0x50 ./Source/FreeRTOS_Source/queue.o
+                0x00000e80                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x00000ed0       0x68 ./Source/FreeRTOS_Source/queue.o
+                0x00000ed0                vQueueWaitForMessageRestricted
+ .text.xTaskCreate
+                0x00000f38       0x90 ./Source/FreeRTOS_Source/tasks.o
+                0x00000f38                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x00000fc8      0x104 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x000010cc       0xd0 ./Source/FreeRTOS_Source/tasks.o
+ .text.vTaskDelayUntil
+                0x0000119c       0xb8 ./Source/FreeRTOS_Source/tasks.o
+                0x0000119c                vTaskDelayUntil
+ .text.vTaskStartScheduler
+                0x00001254       0x78 ./Source/FreeRTOS_Source/tasks.o
+                0x00001254                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x000012cc       0x18 ./Source/FreeRTOS_Source/tasks.o
+                0x000012cc                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x000012e4      0x118 ./Source/FreeRTOS_Source/tasks.o
+                0x000012e4                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x000013fc       0x1c ./Source/FreeRTOS_Source/tasks.o
+                0x000013fc                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x00001418      0x178 ./Source/FreeRTOS_Source/tasks.o
+                0x00001418                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x00001590       0xf4 ./Source/FreeRTOS_Source/tasks.o
+                0x00001590                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x00001684       0x3c ./Source/FreeRTOS_Source/tasks.o
+                0x00001684                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x000016c0       0x4c ./Source/FreeRTOS_Source/tasks.o
+                0x000016c0                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x0000170c       0xb8 ./Source/FreeRTOS_Source/tasks.o
+                0x0000170c                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x000017c4       0x34 ./Source/FreeRTOS_Source/tasks.o
+                0x000017c4                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x000017f8       0x9c ./Source/FreeRTOS_Source/tasks.o
+                0x000017f8                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x00001894       0x14 ./Source/FreeRTOS_Source/tasks.o
+                0x00001894                vTaskMissedYield
+ .text.prvIdleTask
+                0x000018a8       0x20 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvInitialiseTaskLists
+                0x000018c8       0x88 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x00001950       0x74 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvDeleteTCB
+                0x000019c4       0x24 ./Source/FreeRTOS_Source/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x000019e8       0x48 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTaskGetSchedulerState
+                0x00001a30       0x38 ./Source/FreeRTOS_Source/tasks.o
+                0x00001a30                xTaskGetSchedulerState
+ .text.vTaskPriorityInherit
+                0x00001a68       0xbc ./Source/FreeRTOS_Source/tasks.o
+                0x00001a68                vTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x00001b24       0xb8 ./Source/FreeRTOS_Source/tasks.o
+                0x00001b24                xTaskPriorityDisinherit
+ .text.pvTaskIncrementMutexHeldCount
+                0x00001bdc       0x24 ./Source/FreeRTOS_Source/tasks.o
+                0x00001bdc                pvTaskIncrementMutexHeldCount
+ .text.prvAddCurrentTaskToDelayedList
+                0x00001c00       0xa8 ./Source/FreeRTOS_Source/tasks.o
+ .text.xTimerCreateTimerTask
+                0x00001ca8       0x54 ./Source/FreeRTOS_Source/timers.o
+                0x00001ca8                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x00001cfc       0x9c ./Source/FreeRTOS_Source/timers.o
+                0x00001cfc                xTimerGenericCommand
+ .text.prvProcessExpiredTimer
+                0x00001d98       0x70 ./Source/FreeRTOS_Source/timers.o
+ .text.prvTimerTask
+                0x00001e08       0x28 ./Source/FreeRTOS_Source/timers.o
+ .text.prvProcessTimerOrBlockTask
+                0x00001e30       0x8c ./Source/FreeRTOS_Source/timers.o
+ .text.prvGetNextExpireTime
+                0x00001ebc       0x40 ./Source/FreeRTOS_Source/timers.o
+ .text.prvSampleTimeNow
+                0x00001efc       0x40 ./Source/FreeRTOS_Source/timers.o
+ .text.prvInsertTimerInActiveList
+                0x00001f3c       0x84 ./Source/FreeRTOS_Source/timers.o
+ .text.prvProcessReceivedCommands
+                0x00001fc0      0x100 ./Source/FreeRTOS_Source/timers.o
+ .text.prvSwitchTimerLists
+                0x000020c0       0xb4 ./Source/FreeRTOS_Source/timers.o
+ .text.prvCheckForValidListAndQueue
+                0x00002174       0x74 ./Source/FreeRTOS_Source/timers.o
+ .text.prvRecordValue_NormallyFull
+                0x000021e8       0x40 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prvRecordValue_NormallyEmpty
+                0x00002228       0x40 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.prvQueueAccessLogError
+                0x00002268       0x24 ./Source/Common_Demo_Tasks/IntQueue.o
+ .text.xFirstTimerHandler
+                0x0000228c      0x178 ./Source/Common_Demo_Tasks/IntQueue.o
+                0x0000228c                xFirstTimerHandler
+ .text.xSecondTimerHandler
+                0x00002404      0x224 ./Source/Common_Demo_Tasks/IntQueue.o
+                0x00002404                xSecondTimerHandler
+ .text.TIMER16_0_IRQHandler
+                0x00002628       0x2c ./Source/IntQueueTimer.o
+                0x00002628                TIMER16_0_IRQHandler
+ .text.TIMER16_1_IRQHandler
+                0x00002654       0x2c ./Source/IntQueueTimer.o
+                0x00002654                TIMER16_1_IRQHandler
+ .text.pop_registers_from_fault_stack
+                0x00002680       0x26 ./Source/cr_startup_lpc11.o
+                0x00002680                pop_registers_from_fault_stack
+ *fill*         0x000026a6        0x2 ff
+ .text.main_blinky
+                0x000026a8       0x68 ./Source/main-blinky.o
+                0x000026a8                main_blinky
+ .text.prvQueueSendTask
+                0x00002710       0x48 ./Source/main-blinky.o
+ .text.prvQueueReceiveTask
+                0x00002758       0x38 ./Source/main-blinky.o
+ .text.main     0x00002790       0x14 ./Source/main.o
+                0x00002790                main
+ .text.vMainToggleLED
+                0x000027a4       0x3c ./Source/main.o
+                0x000027a4                vMainToggleLED
+ .text.prvSetupHardware
+                0x000027e0       0x5c ./Source/main.o
+ .text.vApplicationMallocFailedHook
+                0x0000283c        0x8 ./Source/main.o
+                0x0000283c                vApplicationMallocFailedHook
+ .text.vApplicationStackOverflowHook
+                0x00002844       0x10 ./Source/main.o
+                0x00002844                vApplicationStackOverflowHook
+ .text.vApplicationTickHook
+                0x00002854       0x28 ./Source/main.o
+                0x00002854                vApplicationTickHook
+ .text.GPIOSetBitValue
+                0x0000287c       0x1e C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+                0x0000287c                GPIOSetBitValue
+ .text.GPIOSetDir
+                0x0000289a       0x2e C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+                0x0000289a                GPIOSetDir
+ .text.SystemInit
+                0x000028c8       0xd4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+                0x000028c8                SystemInit
+ .text.memcpy   0x0000299c        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                0x0000299c                memcpy
+ .text.memset   0x000029a4        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                0x000029a4                memset
+ .text.__weak_main
+                0x000029ac        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x000029ac                __weak_main
+                0x000029ac                __main
+ .text.memcmp   0x000029b4       0x3a c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+                0x000029b4                memcmp
+ .text.__aeabi_division_idivmod
+                0x000029ee       0x78 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+                0x000029ee                __aeabi_idivmod
+                0x000029ee                __aeabi_idiv
+                0x000029f4                __aeabi_uidivmod
+                0x000029f4                __aeabi_uidiv
+ .text.__aeabi_division_idiv0
+                0x00002a66        0x2 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                0x00002a66                __aeabi_idiv0
+ .text.__aeabi_memcpy
+                0x00002a68       0x2c c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                0x00002a68                __aeabi_memcpy4
+                0x00002a68                __aeabi_memcpy8
+                0x00002a68                __aeabi_memcpy
+ .text.__aeabi_memset_lowlevel
+                0x00002a94       0x2a c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                0x00002a94                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ *fill*         0x00002abe        0x2 ff
+ .rodata        0x00002ac0        0x5 ./Source/FreeRTOS_Source/tasks.o
+ *fill*         0x00002ac5        0x3 ff
+ .rodata        0x00002ac8        0xd ./Source/FreeRTOS_Source/timers.o
+ *fill*         0x00002ad5        0x3 ff
+ .rodata.prvProcessReceivedCommands
+                0x00002ad8       0x28 ./Source/FreeRTOS_Source/timers.o
+ .rodata        0x00002b00        0x7 ./Source/main-blinky.o
+ *fill*         0x00002b07        0x1 ff
+ .rodata.ucExpectedInterruptStackValues
+                0x00002b08       0x10 ./Source/main.o
+                0x00002b08                ucExpectedInterruptStackValues
+                0x00002b18                . = ALIGN (0x4)
+
+.glue_7         0x00002b18        0x0
+ .glue_7        0x00002b18        0x0 linker stubs
+
+.glue_7t        0x00002b18        0x0
+ .glue_7t       0x00002b18        0x0 linker stubs
+
+.vfp11_veneer   0x00002b18        0x0
+ .vfp11_veneer  0x00002b18        0x0 linker stubs
+
+.v4_bx          0x00002b18        0x0
+ .v4_bx         0x00002b18        0x0 linker stubs
+
+.iplt           0x00002b18        0x0
+ .iplt          0x00002b18        0x0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+
+.rel.dyn        0x00002b18        0x0
+ .rel.iplt      0x00002b18        0x0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00002b18                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002b18                __exidx_end = .
+                0x00002b18                _etext = .
+
+.data_RAM2      0x20004000        0x0 load address 0x00002b18
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamUsb2)
+ *(.data.$RAM2*)
+ *(.data.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0xc load address 0x00002b18
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.uxCriticalNesting
+                0x10000000        0x4 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .data.xErrorStatus
+                0x10000004        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .data.SystemCoreClock
+                0x10000008        0x4 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+                0x10000008                SystemCoreClock
+                0x1000000c                . = ALIGN (0x4)
+                0x1000000c                _edata = .
+
+.igot.plt       0x1000000c        0x0 load address 0x00002b24
+ .igot.plt      0x1000000c        0x0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+
+.bss_RAM2       0x20004000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamUsb2*)
+                0x20004000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x1000000c      0xb3c
+                0x1000000c                _bss = .
+ *(.bss*)
+ .bss.ucHeap    0x1000000c      0x800 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .bss.xNextFreeByte
+                0x1000080c        0x4 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .bss.pucAlignedHeap.4294
+                0x10000810        0x4 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .bss.pxCurrentTCB
+                0x10000814        0x4 ./Source/FreeRTOS_Source/tasks.o
+                0x10000814                pxCurrentTCB
+ .bss.pxReadyTasksLists
+                0x10000818       0x64 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xDelayedTaskList1
+                0x1000087c       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xDelayedTaskList2
+                0x10000890       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .bss.pxDelayedTaskList
+                0x100008a4        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x100008a8        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xPendingReadyList
+                0x100008ac       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xTasksWaitingTermination
+                0x100008c0       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x100008d4        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xSuspendedTaskList
+                0x100008d8       0x14 ./Source/FreeRTOS_Source/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x100008ec        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xTickCount
+                0x100008f0        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.uxTopReadyPriority
+                0x100008f4        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xSchedulerRunning
+                0x100008f8        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.uxPendedTicks
+                0x100008fc        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xYieldPending
+                0x10000900        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xNumOfOverflows
+                0x10000904        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.uxTaskNumber
+                0x10000908        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x1000090c        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xIdleTaskHandle
+                0x10000910        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.uxSchedulerSuspended
+                0x10000914        0x4 ./Source/FreeRTOS_Source/tasks.o
+ .bss.xActiveTimerList1
+                0x10000918       0x14 ./Source/FreeRTOS_Source/timers.o
+ .bss.xActiveTimerList2
+                0x1000092c       0x14 ./Source/FreeRTOS_Source/timers.o
+ .bss.pxCurrentTimerList
+                0x10000940        0x4 ./Source/FreeRTOS_Source/timers.o
+ .bss.pxOverflowTimerList
+                0x10000944        0x4 ./Source/FreeRTOS_Source/timers.o
+ .bss.xTimerQueue
+                0x10000948        0x4 ./Source/FreeRTOS_Source/timers.o
+ .bss.xTimerTaskHandle
+                0x1000094c        0x4 ./Source/FreeRTOS_Source/timers.o
+ .bss.xLastTime.4586
+                0x10000950        0x4 ./Source/FreeRTOS_Source/timers.o
+ .bss.xNormallyEmptyQueue
+                0x10000954        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.xNormallyFullQueue
+                0x10000958        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.xErrorLine
+                0x1000095c        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxValueForNormallyEmptyQueue
+                0x10000960        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxValueForNormallyFullQueue
+                0x10000964        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.ucNormallyEmptyReceivedValues
+                0x10000968       0xc8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.ucNormallyFullReceivedValues
+                0x10000a30       0xc8 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxNextOperation.4489
+                0x10000af8        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.uxNextOperation.4498
+                0x10000afc        0x4 ./Source/Common_Demo_Tasks/IntQueue.o
+ .bss.xQueue    0x10000b00        0x4 ./Source/main-blinky.o
+ .bss.ulLEDState.4894
+                0x10000b04        0x4 ./Source/main.o
+ *(COMMON)
+ COMMON         0x10000b08       0x40 ./Source/FreeRTOS_Source/queue.o
+                0x10000b08                xQueueRegistry
+                0x10000b48                . = ALIGN (0x4)
+                0x10000b48                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x20004000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+
+.noinit         0x10000b48        0x0
+                0x10000b48                _noinit = .
+ *(.noinit*)
+                0x10000b48                . = ALIGN (0x4)
+                0x10000b48                _end_noinit = .
+                0x10000b48                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10001000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc4 - 0x0))
+                [!provide]                PROVIDE (__valid_user_code_checksum, (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+OUTPUT(RTOSDemo.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x6572
+ .debug_info    0x00000000      0x182 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_info    0x00000182      0x252 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_info    0x000003d4      0x296 ./Source/FreeRTOS_Source/list.o
+ .debug_info    0x0000066a      0xe02 ./Source/FreeRTOS_Source/queue.o
+ .debug_info    0x0000146c     0x16ac ./Source/FreeRTOS_Source/tasks.o
+ .debug_info    0x00002b18      0x949 ./Source/FreeRTOS_Source/timers.o
+ .debug_info    0x00003461      0x660 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_info    0x00003ac1      0x967 ./Source/IntQueueTimer.o
+ .debug_info    0x00004428      0x327 ./Source/cr_startup_lpc11.o
+ .debug_info    0x0000474f      0x162 ./Source/main-blinky.o
+ .debug_info    0x000048b1      0x633 ./Source/main.o
+ .debug_info    0x00004ee4     0x113d C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_info    0x00006021      0x551 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_abbrev   0x00000000     0x1273
+ .debug_abbrev  0x00000000      0x10b ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_abbrev  0x0000010b      0x187 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_abbrev  0x00000292       0xc1 ./Source/FreeRTOS_Source/list.o
+ .debug_abbrev  0x00000353      0x1a6 ./Source/FreeRTOS_Source/queue.o
+ .debug_abbrev  0x000004f9      0x247 ./Source/FreeRTOS_Source/tasks.o
+ .debug_abbrev  0x00000740      0x1a3 ./Source/FreeRTOS_Source/timers.o
+ .debug_abbrev  0x000008e3      0x137 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_abbrev  0x00000a1a      0x192 ./Source/IntQueueTimer.o
+ .debug_abbrev  0x00000bac      0x144 ./Source/cr_startup_lpc11.o
+ .debug_abbrev  0x00000cf0       0x96 ./Source/main-blinky.o
+ .debug_abbrev  0x00000d86      0x165 ./Source/main.o
+ .debug_abbrev  0x00000eeb      0x275 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_abbrev  0x00001160      0x113 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_aranges  0x00000000      0x728
+ .debug_aranges
+                0x00000000       0x38 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_aranges
+                0x00000038       0x88 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_aranges
+                0x000000c0       0x40 ./Source/FreeRTOS_Source/list.o
+ .debug_aranges
+                0x00000100      0x118 ./Source/FreeRTOS_Source/queue.o
+ .debug_aranges
+                0x00000218      0x1d8 ./Source/FreeRTOS_Source/tasks.o
+ .debug_aranges
+                0x000003f0       0xb8 ./Source/FreeRTOS_Source/timers.o
+ .debug_aranges
+                0x000004a8       0x78 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_aranges
+                0x00000520       0x40 ./Source/IntQueueTimer.o
+ .debug_aranges
+                0x00000560       0x68 ./Source/cr_startup_lpc11.o
+ .debug_aranges
+                0x000005c8       0x30 ./Source/main-blinky.o
+ .debug_aranges
+                0x000005f8       0x50 ./Source/main.o
+ .debug_aranges
+                0x00000648       0xb8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_aranges
+                0x00000700       0x28 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_ranges   0x00000000      0x670
+ .debug_ranges  0x00000000       0x28 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_ranges  0x00000028       0x78 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_ranges  0x000000a0       0x30 ./Source/FreeRTOS_Source/list.o
+ .debug_ranges  0x000000d0      0x108 ./Source/FreeRTOS_Source/queue.o
+ .debug_ranges  0x000001d8      0x1c8 ./Source/FreeRTOS_Source/tasks.o
+ .debug_ranges  0x000003a0       0xa8 ./Source/FreeRTOS_Source/timers.o
+ .debug_ranges  0x00000448       0x68 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_ranges  0x000004b0       0x30 ./Source/IntQueueTimer.o
+ .debug_ranges  0x000004e0       0x58 ./Source/cr_startup_lpc11.o
+ .debug_ranges  0x00000538       0x20 ./Source/main-blinky.o
+ .debug_ranges  0x00000558       0x40 ./Source/main.o
+ .debug_ranges  0x00000598       0xc0 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_ranges  0x00000658       0x18 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_macro    0x00000000     0x3ba3
+ .debug_macro   0x00000000       0xda ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x000000da      0x838 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00000912       0x10 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00000922      0x12d ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00000a4f       0x28 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00000a77      0x5b2 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00001029       0xfa ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00001123      0x168 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x0000128b       0xaf ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x0000133a       0x10 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x0000134a       0x1f ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x00001369      0x3f3 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x0000175c       0xc0 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x0000181c       0x8c ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_macro   0x000018a8      0x102 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x000019aa       0x16 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_macro   0x000019c0       0xb9 ./Source/FreeRTOS_Source/list.o
+ .debug_macro   0x00001a79      0x122 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00001b9b       0x94 ./Source/FreeRTOS_Source/queue.o
+ .debug_macro   0x00001c2f      0x18c ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00001dbb       0x91 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00001e4c       0x10 ./Source/FreeRTOS_Source/tasks.o
+ .debug_macro   0x00001e5c       0xf6 ./Source/FreeRTOS_Source/timers.o
+ .debug_macro   0x00001f52      0x154 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x000020a6       0x10 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_macro   0x000020b6      0x11a ./Source/IntQueueTimer.o
+ .debug_macro   0x000021d0       0x1c ./Source/IntQueueTimer.o
+ .debug_macro   0x000021ec       0x2e ./Source/IntQueueTimer.o
+ .debug_macro   0x0000221a      0x237 ./Source/IntQueueTimer.o
+ .debug_macro   0x00002451      0x10e ./Source/IntQueueTimer.o
+ .debug_macro   0x0000255f       0x82 ./Source/cr_startup_lpc11.o
+ .debug_macro   0x000025e1      0x83e ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00002e1f       0x1c ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00002e3b      0x10e ./Source/cr_startup_lpc11.o
+ .debug_macro   0x00002f49      0x11d ./Source/main-blinky.o
+ .debug_macro   0x00003066      0x11d ./Source/main.o
+ .debug_macro   0x00003183       0x52 ./Source/main.o
+ .debug_macro   0x000031d5       0x7f C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00003254      0x838 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_macro   0x00003a8c      0x117 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_line     0x00000000     0x44a2
+ .debug_line    0x00000000      0x381 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_line    0x00000381      0x44a ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_line    0x000007cb      0x385 ./Source/FreeRTOS_Source/list.o
+ .debug_line    0x00000b50      0x94c ./Source/FreeRTOS_Source/queue.o
+ .debug_line    0x0000149c      0xdff ./Source/FreeRTOS_Source/tasks.o
+ .debug_line    0x0000229b      0x5c3 ./Source/FreeRTOS_Source/timers.o
+ .debug_line    0x0000285e      0x654 ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_line    0x00002eb2      0x4d5 ./Source/IntQueueTimer.o
+ .debug_line    0x00003387      0x232 ./Source/cr_startup_lpc11.o
+ .debug_line    0x000035b9      0x41d ./Source/main-blinky.o
+ .debug_line    0x000039d6      0x465 ./Source/main.o
+ .debug_line    0x00003e3b      0x47f C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_line    0x000042ba      0x1e8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_str      0x00000000     0xd874
+ .debug_str     0x00000000     0x6f36 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+                               0x6fcf (size before relaxing)
+ .debug_str     0x00006f36      0x3c0 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+                               0x7219 (size before relaxing)
+ .debug_str     0x000072f6      0x137 ./Source/FreeRTOS_Source/list.o
+                               0x6a12 (size before relaxing)
+ .debug_str     0x0000742d      0xf83 ./Source/FreeRTOS_Source/queue.o
+                               0x7f6e (size before relaxing)
+ .debug_str     0x000083b0     0x1bf6 ./Source/FreeRTOS_Source/tasks.o
+                               0x8ce7 (size before relaxing)
+ .debug_str     0x00009fa6      0x41a ./Source/FreeRTOS_Source/timers.o
+                               0x83ff (size before relaxing)
+ .debug_str     0x0000a3c0      0xb3e ./Source/Common_Demo_Tasks/IntQueue.o
+                               0x8205 (size before relaxing)
+ .debug_str     0x0000aefe     0x19f5 ./Source/IntQueueTimer.o
+                               0x8825 (size before relaxing)
+ .debug_str     0x0000c8f3      0x2bc ./Source/cr_startup_lpc11.o
+                               0x5131 (size before relaxing)
+ .debug_str     0x0000cbaf      0x181 ./Source/main-blinky.o
+                               0x8bd3 (size before relaxing)
+ .debug_str     0x0000cd30      0x1b7 ./Source/main.o
+                               0x866b (size before relaxing)
+ .debug_str     0x0000cee7      0x680 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+                               0x5a6a (size before relaxing)
+ .debug_str     0x0000d567      0x30d C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+                               0x5496 (size before relaxing)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .comment       0x0000006e       0x6f ./Source/FreeRTOS_Source/list.o
+ .comment       0x0000006e       0x6f ./Source/FreeRTOS_Source/queue.o
+ .comment       0x0000006e       0x6f ./Source/FreeRTOS_Source/tasks.o
+ .comment       0x0000006e       0x6f ./Source/FreeRTOS_Source/timers.o
+ .comment       0x0000006e       0x6f ./Source/Common_Demo_Tasks/IntQueue.o
+ .comment       0x0000006e       0x6f ./Source/IntQueueTimer.o
+ .comment       0x0000006e       0x6f ./Source/cr_startup_lpc11.o
+ .comment       0x0000006e       0x6f ./Source/main-blinky.o
+ .comment       0x0000006e       0x6f ./Source/main.o
+ .comment       0x0000006e       0x6f C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .comment       0x0000006e       0x6f C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                                 0x6f (size before relaxing)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .ARM.attributes
+                0x00000031       0x31 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .ARM.attributes
+                0x00000062       0x31 ./Source/FreeRTOS_Source/list.o
+ .ARM.attributes
+                0x00000093       0x31 ./Source/FreeRTOS_Source/queue.o
+ .ARM.attributes
+                0x000000c4       0x31 ./Source/FreeRTOS_Source/tasks.o
+ .ARM.attributes
+                0x000000f5       0x31 ./Source/FreeRTOS_Source/timers.o
+ .ARM.attributes
+                0x00000126       0x31 ./Source/Common_Demo_Tasks/IntQueue.o
+ .ARM.attributes
+                0x00000157       0x31 ./Source/IntQueueTimer.o
+ .ARM.attributes
+                0x00000188       0x31 ./Source/cr_startup_lpc11.o
+ .ARM.attributes
+                0x000001b9       0x31 ./Source/main-blinky.o
+ .ARM.attributes
+                0x000001ea       0x31 ./Source/main.o
+ .ARM.attributes
+                0x0000021b       0x31 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .ARM.attributes
+                0x0000024c       0x31 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+ .ARM.attributes
+                0x0000027d       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x000002ae       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x000002df       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000310       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcmp.o)
+ .ARM.attributes
+                0x00000341       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x00000362       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x00000383       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+.debug_frame    0x00000000     0x16a0
+ .debug_frame   0x00000000       0x88 ./Source/FreeRTOS_Source/portable/MemMang/heap_1.o
+ .debug_frame   0x00000088      0x174 ./Source/FreeRTOS_Source/portable/GCC/ARM_CM0/port.o
+ .debug_frame   0x000001fc       0xb0 ./Source/FreeRTOS_Source/list.o
+ .debug_frame   0x000002ac      0x410 ./Source/FreeRTOS_Source/queue.o
+ .debug_frame   0x000006bc      0x6fc ./Source/FreeRTOS_Source/tasks.o
+ .debug_frame   0x00000db8      0x288 ./Source/FreeRTOS_Source/timers.o
+ .debug_frame   0x00001040      0x18c ./Source/Common_Demo_Tasks/IntQueue.o
+ .debug_frame   0x000011cc       0xac ./Source/IntQueueTimer.o
+ .debug_frame   0x00001278       0xc4 ./Source/cr_startup_lpc11.o
+ .debug_frame   0x0000133c       0x70 ./Source/main-blinky.o
+ .debug_frame   0x000013ac       0xdc ./Source/main.o
+ .debug_frame   0x00001488      0x1cc C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_frame   0x00001654       0x4c C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
+
+.debug_loc      0x00000000      0x815
+ .debug_loc     0x00000000      0x1d4 ./Source/cr_startup_lpc11.o
+ .debug_loc     0x000001d4      0x5e8 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(gpio.o)
+ .debug_loc     0x000007bc       0x59 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a(system_LPC11Uxx.o)
