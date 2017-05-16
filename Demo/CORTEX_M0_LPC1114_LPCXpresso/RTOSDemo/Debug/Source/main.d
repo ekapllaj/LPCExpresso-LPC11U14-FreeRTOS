@@ -8,6 +8,7 @@ Source/main.o Source/main.d: ../Source/main.c \
  C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/mpu_wrappers.h \
  C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/task.h \
  C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/list.h \
+ C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/queue.h \
  C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\inc/lpc11Uxx.h \
  C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\inc/core_cm0.h \
  C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\inc/core_cmInstr.h \
@@ -32,6 +33,8 @@ C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpress
 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/task.h:
 
 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/list.h:
+
+C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\RTOSDemo\Source\FreeRTOS_Source\include/queue.h:
 
 C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\inc/lpc11Uxx.h:
 

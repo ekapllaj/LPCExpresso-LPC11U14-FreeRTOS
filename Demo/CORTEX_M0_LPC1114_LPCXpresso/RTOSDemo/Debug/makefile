@@ -33,7 +33,7 @@ all: RTOSDemo.axf
 RTOSDemo.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug" -Xlinker -Map=RTOSDemo.map -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "RTOSDemo_Debug.ld" -o "RTOSDemo.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\Asus\Downloads\FreeRTOSv9.0.0\FreeRTOS\Demo\CORTEX_M0_LPC1114_LPCXpresso\CMSISv2p00_LPC11Uxx\Debug" -Xlinker -Map=RTOSDemo.map -Xlinker -print-memory-usage -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "RTOSDemo_Debug.ld" -o "RTOSDemo.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

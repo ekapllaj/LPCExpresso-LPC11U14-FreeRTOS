@@ -5,26 +5,17 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../Source/IntQueueTimer.c \
-../Source/RegTest.c \
 ../Source/cr_startup_lpc11.c \
-../Source/main-blinky.c \
-../Source/main-full.c \
 ../Source/main.c 
 
 OBJS += \
 ./Source/IntQueueTimer.o \
-./Source/RegTest.o \
 ./Source/cr_startup_lpc11.o \
-./Source/main-blinky.o \
-./Source/main-full.o \
 ./Source/main.o 
 
 C_DEPS += \
 ./Source/IntQueueTimer.d \
-./Source/RegTest.d \
 ./Source/cr_startup_lpc11.d \
-./Source/main-blinky.d \
-./Source/main-full.d \
 ./Source/main.d 
 
 

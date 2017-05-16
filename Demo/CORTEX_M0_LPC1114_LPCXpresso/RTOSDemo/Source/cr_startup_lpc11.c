@@ -338,14 +338,14 @@ void NMI_Handler(void)
 
 void pop_registers_from_fault_stack(unsigned int * hardfault_args)
 {
-volatile unsigned int stacked_r0;
-volatile unsigned int stacked_r1;
-volatile unsigned int stacked_r2;
-volatile unsigned int stacked_r3;
-volatile unsigned int stacked_r12;
-volatile unsigned int stacked_lr;
-volatile unsigned int stacked_pc;
-volatile unsigned int stacked_psr;
+	volatile unsigned int stacked_r0;
+	volatile unsigned int stacked_r1;
+	volatile unsigned int stacked_r2;
+	volatile unsigned int stacked_r3;
+	volatile unsigned int stacked_r12;
+	volatile unsigned int stacked_lr;
+	volatile unsigned int stacked_pc;
+	volatile unsigned int stacked_psr;
 
 	stacked_r0 = ((unsigned long) hardfault_args[0]);
 	stacked_r1 = ((unsigned long) hardfault_args[1]);
