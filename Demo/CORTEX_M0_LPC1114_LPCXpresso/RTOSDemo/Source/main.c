@@ -95,10 +95,6 @@
 #include "lpc11Uxx.h"
 #include "gpio.h"
 
-/* Priorities at which the tasks are created. */
-#define mainQUEUE_RECEIVE_TASK_PRIORITY		( tskIDLE_PRIORITY + 2 )
-#define	mainQUEUE_SEND_TASK_PRIORITY		( tskIDLE_PRIORITY + 1 )
-
 /* The rate at which data is sent to the queue.  The 200ms value is converted
 to ticks using the portTICK_PERIOD_MS constant. */
 #define mainQUEUE_SEND_FREQUENCY_MS			( 200 / portTICK_PERIOD_MS )
@@ -108,11 +104,6 @@ will remove items as they are added, meaning the send task should always find
 the queue empty. */
 #define mainQUEUE_LENGTH					( 1 )
 
-/* Values passed to the two tasks just to check the task parameter
-functionality. */
-#define mainQUEUE_SEND_PARAMETER			( 0x1111UL )
-#define mainQUEUE_RECEIVE_PARAMETER			( 0x22UL )
-/*-----------------------------------------------------------*/
 
 /* The queue used by both tasks. */
 static QueueHandle_t xQueue = NULL;
@@ -124,6 +115,7 @@ static QueueHandle_t xQueue = NULL;
 static void prvSetupHardware( void );
 static void prvQueueReceiveTask( void *pvParameters );
 static void prvQueueSendTask( void *pvParameters );
+static void prvUartTask( void *pvParameters );
 
 /*
  * The hardware only has a single LED.  Simply toggle it.
@@ -144,14 +136,9 @@ int main( void )
 	{
 		/* Start the two tasks as described in the comments at the top of this
 		file. */
-		xTaskCreate( prvQueueReceiveTask,					/* The function that implements the task. */
-					"Rx", 									/* The text name assigned to the task - for debug only as it is not used by the kernel. */
-					configMINIMAL_STACK_SIZE, 				/* The size of the stack to allocate to the task. */
-					( void * ) mainQUEUE_RECEIVE_PARAMETER, /* The parameter passed to the task - just to check the functionality. */
-					mainQUEUE_RECEIVE_TASK_PRIORITY, 		/* The priority assigned to the task. */
-					NULL );									/* The task handle is not required, so NULL is passed. */
-
-		xTaskCreate( prvQueueSendTask, "TX", configMINIMAL_STACK_SIZE, ( void * ) mainQUEUE_SEND_PARAMETER, mainQUEUE_SEND_TASK_PRIORITY, NULL );
+		xTaskCreate( prvQueueReceiveTask, "Rx", configMINIMAL_STACK_SIZE, NULL, 2, NULL );
+		xTaskCreate( prvQueueSendTask, "TX", configMINIMAL_STACK_SIZE, NULL, 1, NULL );
+		xTaskCreate( prvUartTask, "Uart", configMINIMAL_STACK_SIZE, NULL, 1, NULL );
 
 		/* Start the tasks and timer running. */
 		vTaskStartScheduler();
@@ -193,6 +180,9 @@ unsigned long ulInterruptStackSize;
 	/* Configure GPIO for LED output. */
 	GPIOSetDir( 0, 7, 1 );
 
+	/* Configure GPIO output for uart task */
+	GPIOSetDir( 1, 19, 1 );
+
 	/* The size of the stack used by main and interrupts is not defined in
 	the linker, but just uses whatever RAM is left.  Calculate the amount of
 	RAM available for the main/interrupt/system stack, and check it against
@@ -203,8 +193,8 @@ unsigned long ulInterruptStackSize;
 	configCHECK_FOR_STACK_OVERFLOW is not 0 in FreeRTOSConfig.h - but the stack
 	used by interrupts is not.  Reducing the conifgTOTAL_HEAP_SIZE setting will
 	increase the stack available to main() and interrupts. */
-	ulInterruptStackSize = ( ( unsigned long ) _vStackTop ) - ( ( unsigned long ) _pvHeapStart );
-	configASSERT( ulInterruptStackSize > 350UL );
+	//ulInterruptStackSize = ( ( unsigned long ) _vStackTop ) - ( ( unsigned long ) _pvHeapStart );
+	//configASSERT( ulInterruptStackSize > 350UL );
 
 	/* Fill the stack used by main() and interrupts to a known value, so its
 	use can be manually checked. */
@@ -258,62 +248,16 @@ void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName )
 
 void vApplicationTickHook( void )
 {
-#if mainCHECK_INTERRUPT_STACK == 1
-extern unsigned long _pvHeapStart[];
 
-	/* This function will be called by each tick interrupt if
-	configUSE_TICK_HOOK is set to 1 in FreeRTOSConfig.h.  User code can be
-	added here, but the tick hook is called from an interrupt context, so
-	code must not attempt to block, and only the interrupt safe FreeRTOS API
-	functions can be used (those that end in FromISR()). */
-
-	/* Manually check the last few bytes of the interrupt stack to check they
-	have not been overwritten.  Note - the task stacks are automatically
-	checked for overflow if configCHECK_FOR_STACK_OVERFLOW is set to 1 or 2
-	in FreeRTOSConifg.h, but the interrupt stack is not. */
-	configASSERT( memcmp( ( void * ) _pvHeapStart, ucExpectedInterruptStackValues, sizeof( ucExpectedInterruptStackValues ) ) == 0U );
-#endif /* mainCHECK_INTERRUPT_STACK */
 }
-/*-----------------------------------------------------------*/
-
-#ifdef JUST_AN_EXAMPLE_ISR
-
-void Dummy_IRQHandler(void)
-{
-long lHigherPriorityTaskWoken = pdFALSE;
-
-	/* Clear the interrupt if necessary. */
-	Dummy_ClearITPendingBit();
-
-	/* This interrupt does nothing more than demonstrate how to synchronise a
-	task with an interrupt.  A semaphore is used for this purpose.  Note
-	lHigherPriorityTaskWoken is initialised to zero.  Only FreeRTOS API functions
-	that end in "FromISR" can be called from an ISR. */
-	xSemaphoreGiveFromISR( xTestSemaphore, &lHigherPriorityTaskWoken );
-
-	/* If there was a task that was blocked on the semaphore, and giving the
-	semaphore caused the task to unblock, and the unblocked task has a priority
-	higher than the current Running state task (the task that this interrupt
-	interrupted), then lHigherPriorityTaskWoken will have been set to pdTRUE
-	internally within xSemaphoreGiveFromISR().  Passing pdTRUE into the
-	portEND_SWITCHING_ISR() macro will result in a context switch being pended to
-	ensure this interrupt returns directly to the unblocked, higher priority,
-	task.  Passing pdFALSE into portEND_SWITCHING_ISR() has no effect. */
-	portEND_SWITCHING_ISR( lHigherPriorityTaskWoken );
-}
-
-#endif /* JUST_AN_EXAMPLE_ISR */
 
 
 /*-----------------------------------------------------------*/
 
 static void prvQueueSendTask( void *pvParameters )
 {
-TickType_t xNextWakeTime;
-const unsigned long ulValueToSend = 100UL;
-
-	/* Check the task parameter is as expected. */
-	configASSERT( ( ( unsigned long ) pvParameters ) == mainQUEUE_SEND_PARAMETER );
+	TickType_t xNextWakeTime;
+	const unsigned long ulValueToSend = 100UL;
 
 	/* Initialise xNextWakeTime - this only needs to be done once. */
 	xNextWakeTime = xTaskGetTickCount();
@@ -339,9 +283,6 @@ static void prvQueueReceiveTask( void *pvParameters )
 {
 unsigned long ulReceivedValue;
 
-	/* Check the task parameter is as expected. */
-	configASSERT( ( ( unsigned long ) pvParameters ) == mainQUEUE_RECEIVE_PARAMETER );
-
 	for( ;; )
 	{
 		/* Wait until something arrives in the queue - this task will block
@@ -359,4 +300,14 @@ unsigned long ulReceivedValue;
 	}
 }
 
+static void prvUartTask( void *pvParameters )
+{
+	unsigned int i;
+	for( ;; )
+	{
+		GPIOSetBitValue( 1, 19, 1 );
+		for(i=0; i< 10; i++);
+		GPIOSetBitValue( 1, 19, 0 );
+	}
+}
 
