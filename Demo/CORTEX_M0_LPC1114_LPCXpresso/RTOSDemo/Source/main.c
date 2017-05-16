@@ -265,6 +265,8 @@ static void prvQueueSendTask( void *pvParameters )
 {
 	TickType_t xNextWakeTime;
 	const unsigned long ulValueToSend = 100UL;
+	size_t free_heap;
+	UBaseType_t mystack;
 
 	/* Initialise xNextWakeTime - this only needs to be done once. */
 	xNextWakeTime = xTaskGetTickCount();
@@ -282,6 +284,8 @@ static void prvQueueSendTask( void *pvParameters )
 		will not block - it shouldn't need to block as the queue should always
 		be empty at this point in the code. */
 		xQueueSend( xQueue, &ulValueToSend, 0U );
+		free_heap = xPortGetFreeHeapSize();
+		mystack = uxTaskGetStackHighWaterMark(NULL);
 	}
 }
 /*-----------------------------------------------------------*/
@@ -289,6 +293,7 @@ static void prvQueueSendTask( void *pvParameters )
 static void prvQueueReceiveTask( void *pvParameters )
 {
 unsigned long ulReceivedValue;
+UBaseType_t mystack;
 
 	for( ;; )
 	{
@@ -303,18 +308,21 @@ unsigned long ulReceivedValue;
 		{
 			vMainToggleLED();
 			ulReceivedValue = 0U;
+			mystack = uxTaskGetStackHighWaterMark(NULL);
 		}
 	}
 }
 
 static void prvUartTask( void *pvParameters )
 {
+	UBaseType_t mystack;
 	unsigned int i;
 	for( ;; )
 	{
 		GPIOSetBitValue( 1, 19, 1 );
 		for(i=0; i< 10; i++);
 		GPIOSetBitValue( 1, 19, 0 );
+		mystack = uxTaskGetStackHighWaterMark(NULL);
 		if ( UARTCount != 0 )
 		{
 		  LPC_USART->IER = IER_THRE | IER_RLS;			/* Disable RBR */
