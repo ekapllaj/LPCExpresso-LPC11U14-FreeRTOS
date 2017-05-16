@@ -94,6 +94,7 @@
 /* Hardware specific includes. */
 #include "lpc11Uxx.h"
 #include "gpio.h"
+#include "uart.h"
 
 /* The rate at which data is sent to the queue.  The 200ms value is converted
 to ticks using the portTICK_PERIOD_MS constant. */
@@ -121,6 +122,9 @@ static void prvUartTask( void *pvParameters );
  * The hardware only has a single LED.  Simply toggle it.
  */
 void vMainToggleLED( void );
+
+extern volatile uint32_t UARTCount;
+extern volatile uint8_t UARTBuffer[BUFSIZE];
 
 
 int main( void )
@@ -182,6 +186,9 @@ unsigned long ulInterruptStackSize;
 
 	/* Configure GPIO output for uart task */
 	GPIOSetDir( 1, 19, 1 );
+
+	// Uart init
+	UARTInit(115200);
 
 	/* The size of the stack used by main and interrupts is not defined in
 	the linker, but just uses whatever RAM is left.  Calculate the amount of
@@ -308,6 +315,14 @@ static void prvUartTask( void *pvParameters )
 		GPIOSetBitValue( 1, 19, 1 );
 		for(i=0; i< 10; i++);
 		GPIOSetBitValue( 1, 19, 0 );
+		if ( UARTCount != 0 )
+		{
+		  LPC_USART->IER = IER_THRE | IER_RLS;			/* Disable RBR */
+		  UARTSend( (uint8_t *)"Received:", 10 );
+		  UARTSend( (uint8_t *)UARTBuffer, UARTCount );
+		  UARTCount = 0;
+		  LPC_USART->IER = IER_THRE | IER_RLS | IER_RBR;	/* Re-enable RBR */
+		}
 	}
 }
 
